@@ -76,3 +76,33 @@ analysis focuses specifically on the United States market.
 - This analysis is limited to the US market. While the US is often seen as a 
   reference market for content trends, these patterns may not apply equally 
   to audiences from other languages or cultures.
+
+  ## Power BI Dashboard
+
+An interactive dashboard was built in Power BI to complement the notebook 
+analysis, using the same cleaned dataset with an updated data snapshot (the 
+source dataset refreshes daily).
+
+### Overview
+KPI summary: total videos analyzed, average views, average engagement ratio, 
+and average trending duration.
+
+![Overview](dashboard/overview.png)
+
+### Category Analysis
+Volume of trending videos vs. average engagement ratio by category.
+
+![Category Analysis](dashboard/category_analysis.png)
+
+### Timing & Format
+Average views by publish hour and day, and the relationship between video 
+duration and views.
+
+![Timing & Format](dashboard/timing_format.png)
+
+### Trending Duration
+Average number of days videos stay on the trending list, by category.
+
+![Trending Duration](dashboard/trending_duration.png)
+
+Full dashboard PDF available in [`dashboard/`](dashboard/).
